@@ -1,12 +1,13 @@
 import React from "react"
-
 import Navbar from "../components/Navbar"
 
-export default function Home() {
+const about = () => {
   return (
     <div>
       <Navbar />
-      <h1>Hello world!</h1>
+      <h1>About page</h1>
     </div>
   )
 }
+
+export default about
