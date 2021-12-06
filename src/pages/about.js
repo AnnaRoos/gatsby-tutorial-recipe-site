@@ -1,12 +1,14 @@
 import React from "react"
-import Navbar from "../components/Navbar"
+/* import * as aboutStyles from "../components/examples/about.module.css"
+ */ import styled from "styled-components"
+
+import Layout from "../components/Layout"
 
 const about = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>About page</h1>
-    </div>
+    </Layout>
   )
 }
 
