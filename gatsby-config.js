@@ -6,6 +6,23 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Simply Recipes",
+    description: "Nice and clean recipes site",
+    author: "John",
+    person: { name: "John", age: 32 },
+    simpleData: ["item 1", "item 2"],
+    complexdata: [
+      {
+        name: "Anna",
+        age: 39,
+      },
+      {
+        name: "Richard",
+        age: 43,
+      },
+    ],
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
