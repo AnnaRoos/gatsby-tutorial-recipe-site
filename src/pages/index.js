@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/Layout"
-import FetchData from "../components/examples/fetchData"
+import StaticQueryHook from "../components/examples/staticQueryHook"
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <FetchData />
+        <StaticQueryHook />
       </main>
     </Layout>
   )
