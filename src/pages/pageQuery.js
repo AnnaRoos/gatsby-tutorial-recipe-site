@@ -1,13 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../components/Layout"
 
 const PageQuery = ({ data }) => {
   const author = data.site.info.author
   return (
-    <div>
+    <Layout>
       <h2>Page Query</h2>
       <p>Author: {author}</p>
-    </div>
+    </Layout>
   )
 }
 

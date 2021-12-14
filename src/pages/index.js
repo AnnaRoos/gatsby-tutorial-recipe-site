@@ -2,7 +2,6 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/Layout"
-import StaticQueryHook from "../components/examples/staticQueryHook"
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <StaticQueryHook />
       </main>
     </Layout>
   )
