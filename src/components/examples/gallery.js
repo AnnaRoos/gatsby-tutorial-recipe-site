@@ -29,7 +29,7 @@ const Gallery = () => {
     <Wrapper>
       <h2 className="heading">Simple image gallery</h2>
       {nodes.map((image, index) => {
-        const { childImageSharp, name } = image
+        const { name } = image
         const pathToIamge = getImage(image)
         return (
           <article key={index} className="item">
